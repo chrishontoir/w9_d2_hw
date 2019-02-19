@@ -28,9 +28,12 @@ class ChartBox extends Component {
 
   render(){
     return(
-      <div className="chart-box">
-        <ChartList data={this.state.entries}/>
-      </div>
+      <div className="box">
+        <h1>Top 20 Music Chart</h1>
+        <div className="chart-box">
+          <ChartList data={this.state.entries}/>
+        </div>
+        </div>
     )
   }
 

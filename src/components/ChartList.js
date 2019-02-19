@@ -10,6 +10,7 @@ const ChartList = ({data}) => {
         songName={entry["im:name"].label}
         songArtist={entry["im:artist"].label}
         songImage={entry["im:image"][1].label}
+        songPosition={index+1}
       />
     )
   })
