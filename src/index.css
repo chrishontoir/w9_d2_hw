@@ -76,6 +76,7 @@ h1,h2,h3,h4, ul {
 
 .chart-entry h4 {
   margin: 20px 0;
+  text-align: center;
 }
 
 .chart-entry p {
